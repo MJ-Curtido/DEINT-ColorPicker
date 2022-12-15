@@ -23,15 +23,15 @@
 
                     <Label Text="Green Value" TextColor="Black" FontSize="Micro" HorizontalTextAlignment="Start" HorizontalOptions="Start"/>
 
-                    <Slider x:Name="sliderGreen" MinimumTrackColor="Green" ValueChanged="SliderColor_ValueChanged"/>
+                    <Slider x:Name="sliderGreen"  MinimumTrackColor="Green" ValueChanged="SliderColor_ValueChanged"/>
 
                     <Label Text="Blue Value" TextColor="Black" FontSize="Micro" HorizontalTextAlignment="Start" HorizontalOptions="Start"/>
 
                     <Slider x:Name="sliderBlue" MinimumTrackColor="Blue" ValueChanged="SliderColor_ValueChanged"/>
 
-                    <Button x:Name="colorActual" TextColor="Black" HorizontalTextAlignment="Center" Clicked="colorActual_Clicked"/>
+                    <Button x:Name="colorActual" TextColor="Black" Clicked="colorActual_Clicked"/>
 
-                    <Button></Button>
+                    <Button x:Name="colorRandom" Text="Generar Color Random" TextColor="Black" Clicked="colorRandom_Clicked"></Button>
                 </StackLayout>
                 
             </Border>
